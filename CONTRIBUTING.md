@@ -17,6 +17,15 @@ Para Evitar problemas nos testes e constantes commits desnecessários, os arquiv
 Para apresentar um exemplo crie um arquivo com um nome que descreva de forma simplicada o exemplo, por exemplo `exemplo_servo_control.hex`, quando for usar este exemplo em seu teste copie este arquivo para `prog_32.hex` sobrescrevendo o antigo. Não altere o código fonte para apontar para o novo exemplo, caso você deposite o novo código esta alteração pode atrapalhar outros desenvolvedores.
 
 Faça o _commit_ apenas do aquivo que tem o nome que representa o exemplo, sempre ignorando o arquivo `prog_32.hex`
+
+## Exemplos em C/C++ ou outra linguagem.
+
+Exemplos em C/C++ ou qualquer outra linguagem podem ser apresentados, desde que sejam acompanhados de scripts e Makefile que gerem o assembly adequado para rodar em um processador RISC-V, lembrando que o RISCuinho até o momento está focado apenas em RV32I, outras extensões só poderão ser testadas caso se comprometam em contribuir com a implementação.
+
+## Uso de bliotecas de terceiros
+
+O Uso de bibliotecas de terceiros devem ser evitadasm nas caso sejam necessário, deverá ser acredico no README do exemplo detalhes de como obte-las, instala-las e como compilar o exemplo,  
+
 # Código de Conduta 
 
 ## Nossa promessa
