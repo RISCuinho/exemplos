@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Memory (see commit description and Readme.md)
+prog_32.hex
